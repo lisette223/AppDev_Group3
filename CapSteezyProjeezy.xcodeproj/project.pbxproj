@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8B868F266FEB91005125FC /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B868E266FEB91005125FC /* ScrollViewController.swift */; };
 		BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B62633013B000FBCDA /* AppDelegate.swift */; };
 		BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B82633013B000FBCDA /* SceneDelegate.swift */; };
 		BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318BA2633013B000FBCDA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B8B868E266FEB91005125FC /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		BF2318B32633013B000FBCDA /* CapSteezyProjeezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapSteezyProjeezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2318B62633013B000FBCDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2318B82633013B000FBCDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				BF2318BA2633013B000FBCDA /* ViewController.swift */,
 				BF2318BC2633013B000FBCDA /* Main.storyboard */,
 				BF2318BF2633013E000FBCDA /* Assets.xcassets */,
+				5B8B868E266FEB91005125FC /* ScrollViewController.swift */,
 				BF2318C12633013E000FBCDA /* LaunchScreen.storyboard */,
 				BF2318C42633013E000FBCDA /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 				BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */,
 				BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */,
 				BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */,
+				5B8B868F266FEB91005125FC /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = CapSteezyProjeezy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = CapSteezyProjeezy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
