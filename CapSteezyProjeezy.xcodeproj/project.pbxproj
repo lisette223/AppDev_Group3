@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5C9E08267235F8004FB67F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C9E07267235F8004FB67F /* ChatViewController.swift */; };
 		5B8B868F266FEB91005125FC /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B868E266FEB91005125FC /* ScrollViewController.swift */; };
+		91CB97F41F77C69055BD78BD /* Pods_CapSteezyProjeezy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB9A64EC83B7A8BADCAE499 /* Pods_CapSteezyProjeezy.framework */; };
 		BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B62633013B000FBCDA /* AppDelegate.swift */; };
 		BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B82633013B000FBCDA /* SceneDelegate.swift */; };
 		BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318BA2633013B000FBCDA /* ViewController.swift */; };
@@ -17,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33F16158AC8CF75AA98B068B /* Pods-CapSteezyProjeezy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapSteezyProjeezy.debug.xcconfig"; path = "Target Support Files/Pods-CapSteezyProjeezy/Pods-CapSteezyProjeezy.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5C9E07267235F8004FB67F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5B8B868E266FEB91005125FC /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		5EB9A64EC83B7A8BADCAE499 /* Pods_CapSteezyProjeezy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapSteezyProjeezy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2318B32633013B000FBCDA /* CapSteezyProjeezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapSteezyProjeezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2318B62633013B000FBCDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2318B82633013B000FBCDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		BF2318BF2633013E000FBCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2318C22633013E000FBCDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF2318C42633013E000FBCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C929BC966C1A458BE5B98DAD /* Pods-CapSteezyProjeezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapSteezyProjeezy.release.xcconfig"; path = "Target Support Files/Pods-CapSteezyProjeezy/Pods-CapSteezyProjeezy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CB97F41F77C69055BD78BD /* Pods_CapSteezyProjeezy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ECB4E3F55EFB8886AF1E110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9A64EC83B7A8BADCAE499 /* Pods_CapSteezyProjeezy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF2318AA2633013B000FBCDA = {
 			isa = PBXGroup;
 			children = (
 				BF2318B52633013B000FBCDA /* CapSteezyProjeezy */,
 				BF2318B42633013B000FBCDA /* Products */,
+				FC19FE98EFFB11FC26647E62 /* Pods */,
+				6ECB4E3F55EFB8886AF1E110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +79,22 @@
 				BF2318B82633013B000FBCDA /* SceneDelegate.swift */,
 				BF2318BA2633013B000FBCDA /* ViewController.swift */,
 				BF2318BC2633013B000FBCDA /* Main.storyboard */,
+				5B5C9E07267235F8004FB67F /* ChatViewController.swift */,
 				BF2318BF2633013E000FBCDA /* Assets.xcassets */,
 				5B8B868E266FEB91005125FC /* ScrollViewController.swift */,
 				BF2318C12633013E000FBCDA /* LaunchScreen.storyboard */,
 				BF2318C42633013E000FBCDA /* Info.plist */,
 			);
 			path = CapSteezyProjeezy;
+			sourceTree = "<group>";
+		};
+		FC19FE98EFFB11FC26647E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F16158AC8CF75AA98B068B /* Pods-CapSteezyProjeezy.debug.xcconfig */,
+				C929BC966C1A458BE5B98DAD /* Pods-CapSteezyProjeezy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF2318C72633013E000FBCDA /* Build configuration list for PBXNativeTarget "CapSteezyProjeezy" */;
 			buildPhases = (
+				47A3A27EFEF6EC302CFD8226 /* [CP] Check Pods Manifest.lock */,
 				BF2318AF2633013B000FBCDA /* Sources */,
 				BF2318B02633013B000FBCDA /* Frameworks */,
 				BF2318B12633013B000FBCDA /* Resources */,
+				8B41AF88B652F19ACB504827 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +164,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A3A27EFEF6EC302CFD8226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapSteezyProjeezy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B41AF88B652F19ACB504827 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapSteezyProjeezy/Pods-CapSteezyProjeezy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapSteezyProjeezy/Pods-CapSteezyProjeezy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapSteezyProjeezy/Pods-CapSteezyProjeezy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF2318AF2633013B000FBCDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,6 +214,7 @@
 				BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */,
 				BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */,
 				BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */,
+				5B5C9E08267235F8004FB67F /* ChatViewController.swift in Sources */,
 				5B8B868F266FEB91005125FC /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +359,7 @@
 		};
 		BF2318C82633013E000FBCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F16158AC8CF75AA98B068B /* Pods-CapSteezyProjeezy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +379,7 @@
 		};
 		BF2318C92633013E000FBCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C929BC966C1A458BE5B98DAD /* Pods-CapSteezyProjeezy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

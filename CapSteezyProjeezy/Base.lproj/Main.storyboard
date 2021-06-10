@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7vW-Ep-qX7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -291,10 +291,10 @@
             </objects>
             <point key="canvasLocation" x="3808.6956521739135" y="122.54464285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="QoZ-tL-PTc">
             <objects>
-                <viewController id="3g5-Dz-746" sceneMemberID="viewController">
+                <viewController id="3g5-Dz-746" customClass="ChatViewController" customModule="CapSteezyProjeezy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NyU-7s-5Bw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,10 +314,17 @@
                         <viewLayoutGuide key="safeArea" id="NVr-L3-lJo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0wJ-Du-wgv">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="list.dash" catalog="system" id="erG-Yi-Yjg">
+                            <connections>
+                                <action selector="didTapMenu" destination="3g5-Dz-746" id="jfT-X4-cOA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9cV-jy-tOL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4560.8695652173919" y="78.348214285714278"/>
+            <point key="canvasLocation" x="5580" y="66"/>
         </scene>
         <!--Scroll View Controller-->
         <scene sceneID="cmg-cM-ddy">
@@ -619,12 +626,35 @@
             </objects>
             <point key="canvasLocation" x="1218.840579710145" y="798.88392857142856"/>
         </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="PIq-Ne-KVH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7vW-Ep-qX7" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Z2-V2-N6l">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="dismissOnRotation" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="3g5-Dz-746" kind="relationship" relationship="rootViewController" id="WH0-N5-CZZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KiL-uw-H3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4706" y="78"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Qjp-NX-Wyx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
