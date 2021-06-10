@@ -9,9 +9,13 @@ import UIKit
 
 class StudentViewController: UIViewController {
 
+    @IBOutlet weak var studentUserName: UILabel!
+    
+    var name = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        studentUserName.text = name
         // Do any additional setup after loading the view.
     }
     
