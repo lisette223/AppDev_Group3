@@ -39,7 +39,9 @@ class ScrollViewController: UIViewController {
         scrollView.contentInset = contentInsets
         scrollView.scrollIndicatorInsets = contentInsets
     }
-
+    @IBAction func unwindToClasses(_ unwindSegue: UIStoryboardSegue) {
+        // Use data from the view controller which initiated the unwind segue
+    }
     /*
     // MARK: - Navigation
 

@@ -12,6 +12,7 @@
 		B13C628F2672482400CF1C47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C628E2672482400CF1C47 /* LoginViewController.swift */; };
 		B13C62922672486700CF1C47 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C62912672486700CF1C47 /* StudentViewController.swift */; };
 		B13C62952672488F00CF1C47 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C62942672488F00CF1C47 /* TeacherViewController.swift */; };
+		B13C62982675385100CF1C47 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C62972675385100CF1C47 /* ClassesViewController.swift */; };
 		BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B62633013B000FBCDA /* AppDelegate.swift */; };
 		BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318B82633013B000FBCDA /* SceneDelegate.swift */; };
 		BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2318BA2633013B000FBCDA /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		B13C628E2672482400CF1C47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B13C62912672486700CF1C47 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		B13C62942672488F00CF1C47 /* TeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		B13C62972675385100CF1C47 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
 		BF2318B32633013B000FBCDA /* CapSteezyProjeezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapSteezyProjeezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2318B62633013B000FBCDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2318B82633013B000FBCDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BF2318B82633013B000FBCDA /* SceneDelegate.swift */,
 				BF2318BA2633013B000FBCDA /* ViewController.swift */,
 				BF2318BC2633013B000FBCDA /* Main.storyboard */,
+				B13C62972675385100CF1C47 /* ClassesViewController.swift */,
 				B13C62942672488F00CF1C47 /* TeacherViewController.swift */,
 				B13C62912672486700CF1C47 /* StudentViewController.swift */,
 				B13C628E2672482400CF1C47 /* LoginViewController.swift */,
@@ -156,6 +159,7 @@
 				B13C62952672488F00CF1C47 /* TeacherViewController.swift in Sources */,
 				BF2318BB2633013B000FBCDA /* ViewController.swift in Sources */,
 				BF2318B72633013B000FBCDA /* AppDelegate.swift in Sources */,
+				B13C62982675385100CF1C47 /* ClassesViewController.swift in Sources */,
 				BF2318B92633013B000FBCDA /* SceneDelegate.swift in Sources */,
 				5B8B868F266FEB91005125FC /* ScrollViewController.swift in Sources */,
 				B13C62922672486700CF1C47 /* StudentViewController.swift in Sources */,
