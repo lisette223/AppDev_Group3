@@ -48,7 +48,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PeerDox-2" translatesAutoresizingMaskIntoConstraints="NO" id="cBS-nH-0KJ">
-                                <rect key="frame" x="67" y="92" width="280" height="151"/>
+                                <rect key="frame" x="20" y="44" width="374" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -277,13 +277,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ku-Vx-dr6">
-                                <rect key="frame" x="87" y="74" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PeerDox-2" translatesAutoresizingMaskIntoConstraints="NO" id="7Ku-Vx-dr6">
+                                <rect key="frame" x="20" y="44" width="374" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Io4-mh-YCe"/>
-                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <color key="backgroundColor" red="0.95712941880000002" green="0.96416693929999997" blue="0.98823994400000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Wv5-Z2-Bso" firstAttribute="centerX" secondItem="6YZ-2Y-7rf" secondAttribute="centerX" id="TS0-AO-WqB"/>
                             <constraint firstItem="Wv5-Z2-Bso" firstAttribute="centerY" secondItem="6YZ-2Y-7rf" secondAttribute="centerY" id="rtn-Zg-dd0"/>
@@ -296,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZXt-s6-dM3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="678"/>
+            <point key="canvasLocation" x="956.52173913043487" y="677.67857142857144"/>
         </scene>
         <!--Create Classes-->
         <scene sceneID="4yl-3q-O7Q">
@@ -526,7 +526,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Jeffrey you're missing a couple assignments" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38d-Wd-Pnt">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Where can I find coats like yours?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38d-Wd-Pnt">
                                                 <rect key="frame" x="0.0" y="28.5" width="350" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="UYx-an-bjX"/>
@@ -1467,7 +1467,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emb-J2-xFb">
                                                         <rect key="frame" x="8" y="8" width="398" height="75"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1806,7 +1806,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You:When is our next meeting?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ChS-4l-4EM">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You:When can I meet with you?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ChS-4l-4EM">
                                                 <rect key="frame" x="0.0" y="28.5" width="350" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="xSq-8E-uQI"/>
@@ -1825,7 +1825,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mr.Salama:When are grades due?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaP-Mm-gJB">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mr.Salama:Great Job on the test!!!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaP-Mm-gJB">
                                                 <rect key="frame" x="0.0" y="28.5" width="350" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="6uo-e1-r7R"/>
@@ -1873,7 +1873,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Jeffrey you're missing a couple assignments" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H00-ep-EFq">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Jeffrey what do you need help with again?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H00-ep-EFq">
                                                 <rect key="frame" x="0.0" y="28.5" width="350" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="5pZ-ke-YmU"/>
@@ -1892,7 +1892,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Great Job on the project!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tLk-S8-EDo">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="You: Can You help me with derivatives!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tLk-S8-EDo">
                                                 <rect key="frame" x="0.0" y="28.5" width="350" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="6ju-Af-lpv"/>
@@ -1945,7 +1945,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pvA-Xn-MlZ"/>
+        <segue reference="sLW-yV-sDV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="PeerDox-2" width="500" height="500"/>
